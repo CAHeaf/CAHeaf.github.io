@@ -1,0 +1,10 @@
+* {
+    background-color: darkslategray;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#header-main {
+    text-align: center;
+    line-height: 0.3;
+}
