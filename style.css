@@ -1,5 +1,5 @@
 * {
-    background-color: darkslategray;
+    background-color: #121212;
     color: aliceblue;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -8,3 +8,39 @@
     text-align: center;
     line-height: 0.3;
 }
+
+#header-about {
+    background-image: url("https://media.giphy.com/media/KpACNEh8jXK2Q/giphy.gif");
+    background-size: 500px;
+    height: 250px;
+}
+
+
+.top-bar {
+    background-color: #121212;
+    overflow: hidden;
+    border: 1px, white;
+  }
+  
+  .top-bar a {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border: 2px dashed rgb(70, 70, 70);
+    border-radius: 5px;
+  }
+  
+
+  .top-bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+
+  .top-bar a.active {
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+  }
