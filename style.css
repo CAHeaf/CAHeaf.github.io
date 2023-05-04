@@ -4,10 +4,6 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
-#header-main {
-    text-align: center;
-    line-height: 0.3;
-}
 
 #header-about {
     background-image: url("https://media.giphy.com/media/KpACNEh8jXK2Q/giphy.gif");
@@ -15,15 +11,19 @@
     height: 250px;
 }
 
-#intro {
+.paragraph {
     text-align: left;
     margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 .top-bar {
     background-color: #121212;
     overflow: hidden;
     border: 1px, white;
+
   }
   
   .top-bar a {
@@ -61,3 +61,14 @@
     text-align: left;
   }
  
+  .announcement {
+    border: 2px solid rgb(255, 255, 255);
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+   
+  .project {
+    border: 5px inset rgb(0, 0, 0);
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
